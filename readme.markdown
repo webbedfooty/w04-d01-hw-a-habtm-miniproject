@@ -8,6 +8,12 @@ same topic (and several topics per meetup). Additionally, a given meetup may be
 attended by multiple members who in turn may attend multiple different meetups.
 Each member has a membership type.
 
+## Important Note
+
+Don't spend more than 2 hours on this. Preferably, you'll spend less than 90
+minutes on this. The only goal here is to get comfortable with the different
+relationships.
+
 ## Specifications
 
 Here are the models, columns, and validations you should start with.
