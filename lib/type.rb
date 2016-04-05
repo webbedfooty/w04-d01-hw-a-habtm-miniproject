@@ -11,6 +11,6 @@ class Type < ActiveRecord::Base
   validates :dues, presence: true, numericality: { only_integer: true }
   validates :tier, presence: true
 
-  has_and_belongs_to_many :members
+  has_many :members
 
 end
