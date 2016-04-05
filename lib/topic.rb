@@ -5,8 +5,8 @@
 
 class Topic < ActiveRecord::Base
 
-  has_and_belongs_to_many :meetups, :members
-
   validates :keyword, presence: true, uniqueness: true
+
+  has_and_belongs_to_many :meetups, :members
 
 end

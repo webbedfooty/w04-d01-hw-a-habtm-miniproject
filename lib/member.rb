@@ -5,9 +5,9 @@
 
 class Member < ActiveRecord::Base
 
-  has_and_belongs_to_many :meetups, :topics, :types
-
   validates :email, presence: true, uniqueness: true
   validates :member_name, presence: true
+
+  has_and_belongs_to_many :meetups, :topics, :types
 
 end
