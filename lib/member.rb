@@ -8,7 +8,8 @@ class Member < ActiveRecord::Base
   validates :email, presence: true, uniqueness: true
   validates :member_name, presence: true
 
-  has_and_belongs_to_many :meetups, :topics
+  has_and_belongs_to_many :topics
+  has_and_belongs_to_many :meetups
   belongs_to :type
 
 end
